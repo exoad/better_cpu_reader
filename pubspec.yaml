@@ -1,0 +1,22 @@
+name: better_cpu_reader
+description: A rewrite for the original cpu_reader package.
+
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.igrik.cpu_reader
+        pluginClass: CpuReaderPlugin
