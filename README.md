@@ -14,6 +14,12 @@ dependencies:
       url: https://github.com/exoad/better_cpu_reader.git
 ```
 
+View it **pub.dev** [here](https://pub.dev/packages/better_cpu_reader) and install it with:
+
+```bash
+flutter pub add better_cpu_reader
+```
+
 You can view the original package [here](https://github.com/igrik12/cpu_reader).
 
 Example:
